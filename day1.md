@@ -8,7 +8,7 @@ Write a function to clean up a list of names by:
 
 ---
 
-# python Code
+# Python Code
 
 ```python
 def clean_name(names):
