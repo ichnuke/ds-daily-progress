@@ -10,17 +10,19 @@ Write a function to clean up a list of names by:
 
 # python Code
 
+```python
 def clean_name(names):
-    clean=[]
+    clean = []
     for i in names:
-        name=i.strip().lower()
+        name = i.strip().lower()
         for p in "!@#$%^&*()_+=-1234567890":
-            name=name.replace(p,'')
+            name = name.replace(p, '')
         clean.append(name)
     return clean
 
 name = ["  Alice  ", "BOB", "   charlie", "dave!", "Eve123"]
 print(clean_name(name))
+```
 
 # output
 
