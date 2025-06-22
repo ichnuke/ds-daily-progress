@@ -24,13 +24,13 @@ name = ["  Alice  ", "BOB", "   charlie", "dave!", "Eve123"]
 print(clean_name(name))
 ```
 
-# output
+# Output
 
 ['alice', 'bob', 'charlie', 'dave', 'eve']
 
 ---
 
-# Explanation of code
+# Explanation of Code
 
 This function loops through each name:
 - first it strips unwanted spaces and convert to lowercase
