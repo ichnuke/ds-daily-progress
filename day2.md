@@ -36,7 +36,7 @@ def words(text):
         else:
             word.append(Text)
             Text = ''
-            continue
+            
     word.append(Text)
     return word
 
